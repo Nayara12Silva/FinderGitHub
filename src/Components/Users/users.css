@@ -1,0 +1,44 @@
+.content{
+    max-width: 500px;
+    background-color: aquamarine;
+    padding: 2rem;
+    margin:0 auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.content h2{
+    font-weight: bold;
+    font-size: 20pt;
+}
+.content p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap:10px;
+
+}
+.segui{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap:10px;
+
+}
+.content .followers, .following{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap:10px;
+    font-size: 14pt;
+    font-weight: bold;
+}
+span{
+    font-size: 15pt;
+}
