@@ -10,7 +10,7 @@ import { Erro } from "../Components/Erro";
 export function Home(){
 
     const [use, setUser] = useState< useProps | null >(null);
-    const[error, setError]= useState(false) //estado de erro 
+    const[error, setError]= useState(false) //estado de erro falso 
     const LoginUser = async (userName:string) =>{
         setError(false)
         setUser(null)
